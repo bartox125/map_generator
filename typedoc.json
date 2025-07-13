@@ -1,0 +1,9 @@
+{
+    "entryPoints": ["src/*.ts"],  // Główne wejście dla dokumentacji
+    "out": "docs",                    // Folder wyjściowy dla dokumentacji
+    "includeVersion": true,           // Dołączenie wersji z package.json
+    "excludePrivate": true,           // Wykluczenie prywatnych członków
+    "excludeExternals": true,         // Wykluczenie zewnętrznych referencji
+    "theme": "default"                // Motyw dla dokumentacji
+  }
+  
